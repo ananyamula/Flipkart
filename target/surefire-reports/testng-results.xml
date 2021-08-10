@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-07T23:25:59Z" name="Surefire suite" finished-at="2021-08-07T23:26:19Z" duration-ms="20618">
+    <groups>
+    </groups>
+    <test started-at="2021-08-07T23:25:59Z" name="Surefire test" finished-at="2021-08-07T23:26:19Z" duration-ms="20618">
+      <class name="com.flipkart.qa.test.FlipKartTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:55:59Z" name="beforeClass" finished-at="2021-08-08T04:56:10Z" duration-ms="11136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="openHomePage(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:11Z" name="openHomePage" data-provider="dp" finished-at="2021-08-08T04:56:11Z" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung mobiles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Snapdragon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="setCriteria()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:11Z" name="setCriteria" finished-at="2021-08-08T04:56:13Z" depends-on-methods="com.flipkart.qa.test.FlipKartTest.openHomePage" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setCriteria -->
+        <test-method signature="setRAM()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:13Z" name="setRAM" finished-at="2021-08-08T04:56:15Z" depends-on-methods="com.flipkart.qa.test.FlipKartTest.setCriteria" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setRAM -->
+        <test-method signature="setProcessor()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:15Z" name="setProcessor" finished-at="2021-08-08T04:56:18Z" depends-on-methods="com.flipkart.qa.test.FlipKartTest.setRAM" duration-ms="3266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProcessor -->
+        <test-method signature="getTotalNoOfMobiles()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:18Z" name="getTotalNoOfMobiles" finished-at="2021-08-08T04:56:19Z" depends-on-methods="com.flipkart.qa.test.FlipKartTest.setProcessor" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTotalNoOfMobiles -->
+        <test-method signature="writeInCSVFile()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:19Z" name="writeInCSVFile" finished-at="2021-08-08T04:56:19Z" depends-on-methods="com.flipkart.qa.test.FlipKartTest.getTotalNoOfMobiles" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeInCSVFile -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.flipkart.qa.test.FlipKartTest@639c2c1d]" started-at="2021-08-08T04:56:19Z" name="afterClass" finished-at="2021-08-08T04:56:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.flipkart.qa.test.FlipKartTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
